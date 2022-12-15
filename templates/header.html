@@ -1,0 +1,19 @@
+  {% extends "index.html" %}
+  {% block header %}
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html">{{ name }}</a></h1>
+      <h2>{{ tag1 }} <span>{{ tag2 }}</span></h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">{{ sect1 }}</a></li>
+          <li><a class="nav-link" href="#resume">{{ sect2 }}</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+  {% endblock %}
